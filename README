@@ -1,0 +1,1 @@
+Para rodar o programa entre na pasta super-ensino com 'cd .\super-ensino\', após isso rode o docker com a comando docker-compose up -d, verifique se o docker subiu com o comando docker-compose logs, após isso entre na url http://localhost:3000/

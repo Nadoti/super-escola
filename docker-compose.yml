@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  escola:
+    build: .
+    container_name: escola
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+volumes:
+  pgdata:
+    driver: local
